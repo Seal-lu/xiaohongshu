@@ -1,0 +1,30 @@
+.scrollH{
+    position: relative;
+    padding: 0%;
+    width: 100vw;
+    overflow-x: scroll;
+    div{
+        display: inline-flex;
+        p{
+            font-size: 1rem;
+            margin: 0%;
+            height: 2.5rem;
+            line-height: 2.5rem;
+            width: 3.125rem;
+        }
+    }
+    .downBtn{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        font-size: 1.25rem;
+        width: 1.875rem;
+        height: 1.875rem;
+        position: sticky;
+        right: 0%;
+        background-image: linear-gradient(to right,rgba(255, 255, 255, 0.67) 20%,rgb(255, 255, 255) 80%);
+        svg{
+            margin-top: 0.625rem;
+        }
+    }
+}

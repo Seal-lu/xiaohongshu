@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  font-size: 1.125rem;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 0%;
+  width: 100vw;
+  height: 2.5rem;
+  background: white;
+}/*# sourceMappingURL=index.css.map */

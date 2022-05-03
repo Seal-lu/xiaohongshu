@@ -1,0 +1,27 @@
+.topbar {
+  z-index: 999;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  height: 3.125rem;
+  align-items: center;
+  padding: 0px 1.25rem;
+  box-sizing: border-box;
+  border-bottom: 0.5px solid rgb(123, 110, 110);
+  overflow: hidden;
+  background: white;
+}
+.topbar .icon {
+  transform: scale(1.8);
+}
+.topbar .center {
+  font-size: 1.125rem;
+  display: flex;
+  justify-content: space-between;
+  width: 9.375rem;
+}
+
+.top {
+  height: 3.125rem;
+}/*# sourceMappingURL=index.css.map */
