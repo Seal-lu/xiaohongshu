@@ -2,15 +2,19 @@ import React from 'react';
 import {
     PlusCircleOutlined
 } from '@ant-design/icons'
-import { Outlet, useNavigate } from 'react-router-dom';
+import Home from '../Home';
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './index.css'
 
 const Index = () => {
-    const indexArr = []
     const history = useNavigate()
+    useEffect(() => {
+        history('推荐')
+    },[]);
     return (
         <div>
-            <Outlet/>
+            <Home />
             <nav className='navBar'>
                 <div onClick={()=> history('/')}>首页</div>
                 <div onClick={()=>history('shop')}>商城</div>

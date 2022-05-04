@@ -1,0 +1,63 @@
+.top_info{
+    z-index: 999;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 3.125rem;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: white;
+}
+.info{
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    .danmu{
+        input{
+            background: none;
+        }
+        .ant-input-affix-wrapper{
+            align-items: center;
+            display: flex;
+            border-radius: 15px;
+            color: white;
+            background: rgb(93, 93, 93);
+            width: 30%;
+        }
+        border-top: 1px solid white;
+        background: black;
+        padding: 0.625rem;
+        box-sizing: border-box;
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        span{
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+        }
+    }
+    .userInfo{
+        display: flex;
+        align-items: center;
+        #follwing{
+            // color: white;
+            background: red;
+            width: 60px;
+            height: 30px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            border-radius: 15px;
+        }
+    }
+    .videoInfo{
+        margin-top: 5px;
+        text-align: start;
+        font-size: 16px;
+    }
+}
