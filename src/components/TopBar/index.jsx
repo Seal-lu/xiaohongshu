@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState,useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
     SearchOutlined,
     createFromIconfontCN
@@ -8,6 +9,7 @@ import './index.css'
 
 const Topbar = () => {
     const domRef = useRef()
+    const nav = useNavigate()
     const [address,setaddress] = useState('郑州')
     const IconFont = createFromIconfontCN({
         scriptUrl:'//at.alicdn.com/t/font_3372502_uong1kk9pb8.js'
@@ -24,7 +26,7 @@ const Topbar = () => {
                     <span>{address}</span>
                 </div>
                 <div className='icon'>
-                    <SearchOutlined />
+                    <SearchOutlined  onClick={()=>nav('/search')}/>
                 </div>
             </div>
         </div>
